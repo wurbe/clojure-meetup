@@ -1,0 +1,26 @@
+(require [quux.core])
+(require '[quux.core])
+first-element
+(:require '[quux.core])
+(require '[quux.core :as c])
+c\first-element
+first-element
+(use '[quux.core])
+quux.core
+first-element
+(doc first-element)
+(use '[quux.core] :reload-all)
+(doc first-element)
+(source first)
+(source zipmap)
+(source filter)
+(source map)
+(fn [a b] (+ a b))
+(def add (fn [a b] (+ a b)))
+(add 1 2)
+(defn add [a b] (+ a b))
+(add 1 2)
+'(1 2)
+[1 21]
+#{1 2}
+#{:a 1 :b 2}
